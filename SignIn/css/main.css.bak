@@ -1,0 +1,314 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+.button {
+  width: 85px;
+  height: 30px;
+  background-color: white;
+  color: black;
+  position: absolute;
+  top: 361px;
+  border-radius: 12px;
+  left: 97px;
+  font-family: Poppins;
+  font-weight: Bold;
+  font-size: 17px;
+  opacity: 1;
+  border: 0px;
+  cursor: pointer;
+  text-align: center;
+}
+.button:hover, 
+  .button:focus{
+	background-color: black;
+	color: white;
+}
+.v2_7 {
+  width: 100%;
+  height: 100%;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v2_6 {
+  width: 100%;
+  height: 100%;
+  background: url("D:/MP/feane/SignIn/images/pexels-pixabay-326279.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v1_2 {
+  width: 947px;
+  height: 489px;
+  background: linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3));
+  box-shadow: 0 0 5px 3px black inset;  
+  opacity: 1;
+  position: absolute;
+  top: 136px;
+  left: 343px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+}
+.v2_3 {
+  width: 384px;
+  height: 448px;
+  background: url("D:/MP/THE ROSA/SignIn/images/pexels-rachel-claire-6127320.jpg");
+  box-shadow: 0 0 37px 10px black inset;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 21px;
+  left: 542px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  overflow: hidden;
+}
+.v3_10 {
+  width: 174px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 50px;
+  left: 93px;
+  font-family: Poppins;
+  font-weight: Bold;
+  font-size: 39px;
+  opacity: 1;
+  cursor: default;
+  text-align: left;
+}
+.v3_11 {
+  width: 190px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 149px;
+  left: 93px;
+  font-family: Poppins;
+  font-weight: Bold;
+  font-size: 18px;
+  opacity: 1;
+  cursor: default;
+  text-align: left;
+}
+.v3_24 {
+  width: 222px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 448px;
+  left: 93px;
+  font-family: Poppins;
+  font-weight: medium;
+  font-size: 17px;
+  opacity: 1;
+  cursor: default;
+  text-align: left;
+}
+.v3_13 {
+  width: 190px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 244px;
+  left: 93px;
+  font-family: Poppins;
+  font-weight: Bold;
+  font-size: 18px;
+  opacity: 1;
+  cursor: default;
+  text-align: left;
+}
+.v3_17 {
+  width: 179px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 335px;
+  left: 281px;
+  font-family: Poppins;
+  font-weight: Medium;
+  font-size: 14px;
+  opacity: 1;
+  cursor: pointer;
+  text-align: center;
+}
+.v3_23 {
+  width: 345px;
+  height: 38px;
+  background: url("D:/MP/THE ROSA/SignIn/images/v3_23.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 183px;
+  left: 93px;
+  overflow: hidden;
+}
+.v3_12 {
+  width: 345px;
+  height: 38px;
+  background: linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.4));
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  border: 2px solid linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.4));
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  overflow: hidden;
+}
+.v3_12:focus{
+  background-color: white;
+  border: 1px black;
+}
+.v3_15 input{
+  width: 100%;
+  position: absolute;
+  top: 7px;
+  left: 12px;
+  background: none;
+  outline: none;
+  border: 0px;
+  font-family: Poppins;
+  font-weight: bold;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+
+.v3_22 {
+  width: 386px;
+  height: 39px;
+  background: url("D:/MP/THE ROSA/SignIn/images/v3_22.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 273px;
+  left: 93px;
+  overflow: hidden;
+}
+.v3_14 {
+  width: 345px;
+  height: 39px;
+  background: linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.4000000059604645));
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  border: 2px solid linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.4));
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  overflow: hidden;
+}
+.v3_16 input{
+  width: 368px;
+  position: absolute;
+  top: 7px;
+  left: 12px;
+  background: none;
+  outline: none;
+  border: 0px;
+  font-family: Poppins;
+  font-weight: bold;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+.v3_26 {
+  width: 123px;
+  height: 32px;
+  background: rgba(0,0,0,1);
+  opacity: 1;
+  position: absolute;
+  top: 442px;
+  left: 315px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  overflow: hidden;
+}
+.v3_28 {
+  width: 75px;
+  height: 25px;
+  background: rgba(0,0,0,1);
+  opacity: 0;
+  position: absolute;
+  top: 362px;
+  left: 95px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  overflow: hidden;
+}
+.v3_27 {
+  width: 85px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 362px;
+  left: 89px;
+  font-family: Poppins;
+  font-weight: Bold;
+  font-size: 16px;
+  opacity: 1;
+  cursor: pointer;
+  border-radius: 10px;
+  text-align: center;
+}
+.v3_29 {
+  width: 90px;
+  position: absolute;
+  top: 430px;
+  left: 320px;
+  font-family: Poppins;
+  font-weight: Bold;
+  font-size: 10px;
+  opacity: 1;
+  cursor: pointer;
+  text-align: left;
+}
+.button1 {
+  width: 135px;
+  height: 30px;
+  background-color: white;
+  color: black;
+  position: absolute;
+  top: 440px;
+  left: 309px;
+  font-family: Poppins;
+  font-weight: bold;
+  font-size: 14px;
+  opacity: 1;
+  border: 0px;
+  border-radius: 12px;
+  cursor: pointer;
+  text-align: centre;
+}
+.button1:hover, 
+  .button1:focus {
+	background-color: black;
+	color:white;
+        font-weight: bold;

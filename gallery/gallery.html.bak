@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <link rel="shortcut icon" href="D:/MP/feane/images/favicon.png" type="">
+	<title>Gallery</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+<!--===============================================================================================-->
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/themify/themify-icons.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/slick/slick.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/lightbox2/css/lightbox.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+<!--===============================================================================================-->
+
+
+<!-- bootstrap core css -->
+        <link rel="stylesheet" type="text/css" href="D:/MP/feane/css/bootstrap.css">
+
+        <!--owl slider stylesheet -->
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+        <!-- nice select  -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css" integrity="sha512-CruCP+TD3yXzlvvijET8wV5WxxEh5H8P4cmz0RFbKK6FlZ2sYl3AEsKlLPHbniXKSrDdFewhbmBK5skbdsASbQ==" crossorigin="anonymous" />
+        <!-- font awesome style -->
+        <link href="D:/MP/feane/css/font-awesome.min.css" rel="stylesheet">
+
+        <!-- Custom styles for this template -->
+        <link href="D:/MP/feane/css/style.css" rel="stylesheet">
+        <!-- responsive style -->
+        <link href="D:/MP/feane/css/responsive.css" rel="stylesheet">
+
+</head>
+
+<body class="sub_page">
+  <div class="animsition">   
+    <div class="hero_area">
+    <div class="bg-box">
+      <img src="D:/MP/feane/images/hero-bg.jpg" alt="">
+    </div>
+    <!-- header section starts -->
+    <header class="header_section">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg custom_nav-container ">
+          <a class="navbar-brand" href="index.html">
+            <span>
+              The Rosa
+            </span>
+          </a>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class=""> </span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav  mx-auto ">
+              <li class="nav-item">
+                <a class="nav-link" href="D:/MP/feane/index.html">Home </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="D:/MP/feane/about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="D:/MP/feane/onlineOrder/menuonline.html">Menu </a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="D:/MP/feane/gallery/gallery.html">Gallery <span class="sr-only">(current)</span> </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="D:/MP/feane/book.html">Book Table</a>
+              </li>
+              
+			  <li class="nav-item">
+                <a class="nav-link" href="#review">Reviews</a>
+              </li>
+
+              </ul>
+            <div class="user_option">
+                 
+              <a href="" class="order_online">
+                Kavita
+              </a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- end header section -->
+  </div>
+
+	</header>	
+
+
+	<!-- Title Page -->
+	<section class="bg-title-page flex-c-m p-t-160 p-b-80 p-l-15 p-r-15" style="background-image: url(images/kevin-nice-SduDm3faQpA-unsplash.jpg);">
+		<h2 class="tit6 t-center">
+			Gallery
+		</h2>
+	</section>
+
+
+	<!-- Gallery -->
+	<div class="section-gallery p-t-118 p-b-100">
+		<div class="wrap-label-gallery filter-tope-group size27 flex-w flex-sb-m m-l-r-auto flex-col-c-sm p-l-15 p-r-15 m-b-60">
+			<button class="label-gallery txt26 trans-0-4 is-actived" data-filter="*">
+				All Photo
+			</button>
+
+			<button class="label-gallery txt26 trans-0-4" data-filter=".interior">
+				Interior
+			</button>
+
+			<button class="label-gallery txt26 trans-0-4" data-filter=".food">
+				Food
+			</button>
+
+			<button class="label-gallery txt26 trans-0-4" data-filter=".events">
+				Events
+			</button>
+			
+		</div>
+
+		<div class="wrap-gallery isotope-grid flex-w p-l-25 p-r-25">
+			<!-- - -->
+			<div class="item-gallery isotope-item bo-rad-10 hov-img-zoom events guests">
+				<img src="images/29.jpg" alt="IMG-GALLERY">
+
+				<div class="overlay-item-gallery trans-0-4 flex-c-m">
+					<a class="btn-show-gallery" href="images/29.jpg" ></a>
+				</div>
+			</div>
+
+			<!-- - -->
+			<div class="item-gallery isotope-item bo-rad-10 hov-img-zoom food">
+				<img src="images/13.jpg" alt="IMG-GALLERY">
+
+				<div class="overlay-item-gallery trans-0-4 flex-c-m">
+					<a class="btn-show-gallery flex-c-m fa fa-search" href="images/13.jpg" data-lightbox="gallery"></a>
+				</div>
+			</div>
+
+			<!-- - -->
+			<div class="item-gallery isotope-item bo-rad-10 hov-img-zoom events">
+				<img src="images/30.jpg" alt="IMG-GALLERY">
+
+				<div class="overlay-item-gallery trans-0-4 flex-c-m">
+					<a class="btn-show-gallery flex-c-m fa fa-search" href="images/30.jpg" data-lightbox="gallery"></a>
+				</div>
+			</div>
+
+			<!-- - -->
+			<div class="item-gallery isotope-item bo-rad-10 hov-img-zoom food">
+				<img src="images/14.jpg" alt="IMG-GALLERY">
+
+				<div class="overlay-item-gallery trans-0-4 flex-c-m">
+					<a class="btn-show-gallery flex-c-m fa fa-search" href="images/14.jpg" data-lightbox="gallery"></a>
+				</div>
+			</div>
+
+			<!-- - -->
+			<div class="item-gallery isotope-item bo-rad-10 hov-img-zoom food">
+				<img src="images/15.jpg" alt="IMG-GALLERY">
+
+				<div class="overlay-item-gallery trans-0-4 flex-c-m">
+					<a class="btn-show-gallery flex-c-m fa fa-search" href="images/15.jpg" data-lightbox="gallery"></a>
+				</div>
+			</div>
+
+			<!-- - -->
+			<div class="item-gallery isotope-item bo-rad-10 hov-img-zoom interior guests">
+				<img src="images/12.jpg" alt="IMG-GALLERY">
+
+				<div class="overlay-item-gallery trans-0-4 flex-c-m">
+					<a class="btn-show-gallery flex-c-m fa fa-search" href="images/12.jpg" data-lightbox="gallery"></a>
+				</div>
+			</div>
+
+			<!-- - -->
+			<div class="item-gallery isotope-item bo-rad-10 hov-img-zoom interior">
+				<img src="images/1.jpg" alt="IMG-GALLERY">
+
+				<div class="overlay-item-gallery trans-0-4 flex-c-m">
+					<a class="btn-show-gallery flex-c-m fa fa-search" href="images/1.jpg" data-lightbox="gallery"></a>
+				</div>
+			</div>
+			
+			<!-- - -->
+			<div class="item-gallery isotope-item bo-rad-10 hov-img-zoom food">
+				<img src="images/41.jpg" alt="IMG-GALLERY">
+
+				<div class="overlay-item-gallery trans-0-4 flex-c-m">
+					<a class="btn-show-gallery flex-c-m fa fa-search" href="images/41.jpg" data-lightbox="gallery"></a>
+				</div>
+			</div>
+
+			<!-- - -->
+			<div class="item-gallery isotope-item bo-rad-10 hov-img-zoom food">
+				<img src="images/42.jpg" alt="IMG-GALLERY">
+
+				<div class="overlay-item-gallery trans-0-4 flex-c-m">
+					<a class="btn-show-gallery flex-c-m fa fa-search" href="images/42.jpg" data-lightbox="gallery"></a>
+				</div>
+			</div>
+
+			<!-- - -->
+			<div class="item-gallery isotope-item bo-rad-10 hov-img-zoom interior">
+				<img src="images/2.jpg" alt="IMG-GALLERY">
+
+				<div class="overlay-item-gallery trans-0-4 flex-c-m">
+					<a class="btn-show-gallery flex-c-m fa fa-search" href="images/2.jpg" data-lightbox="gallery"></a>
+				</div>
+			</div>
+
+			<!-- - -->
+			<div class="item-gallery isotope-item bo-rad-10 hov-img-zoom events">
+				<img src="images/33.jpg" alt="IMG-GALLERY">
+
+				<div class="overlay-item-gallery trans-0-4 flex-c-m">
+					<a class="btn-show-gallery flex-c-m fa fa-search" href="images/33.jpg" data-lightbox="gallery"></a>
+				</div>
+			</div>
+			
+			<!-- - -->
+			<div class="item-gallery isotope-item bo-rad-10 hov-img-zoom events guests">
+				<img src="images/34.jpg" alt="IMG-GALLERY">
+
+				<div class="overlay-item-gallery trans-0-4 flex-c-m">
+					<a class="btn-show-gallery" href="images/34.jpg" ></a>
+				</div>
+			</div>
+
+			<!-- - -->
+			<div class="item-gallery isotope-item bo-rad-10 hov-img-zoom food">
+				<img src="images/16.jpg" alt="IMG-GALLERY">
+
+				<div class="overlay-item-gallery trans-0-4 flex-c-m">
+					<a class="btn-show-gallery flex-c-m fa fa-search" href="images/16.jpg" data-lightbox="gallery"></a>
+				</div>
+			</div>
+
+			<!-- - -->
+			<div class="item-gallery isotope-item bo-rad-10 hov-img-zoom events">
+				<img src="images/35.jpg" alt="IMG-GALLERY">
+
+				<div class="overlay-item-gallery trans-0-4 flex-c-m">
+					<a class="btn-show-gallery flex-c-m fa fa-search" href="images/35.jpg" data-lightbox="gallery"></a>
+				</div>
+			</div>
+
+			<!-- - -->
+			<div class="item-gallery isotope-item bo-rad-10 hov-img-zoom food">
+				<img src="images/17.jpg" alt="IMG-GALLERY">
+
+				<div class="overlay-item-gallery trans-0-4 flex-c-m">
+					<a class="btn-show-gallery flex-c-m fa fa-search" href="images/17.jpg" data-lightbox="gallery"></a>
+				</div>
+			</div>
+
+			<!-- - -->
+			<div class="item-gallery isotope-item bo-rad-10 hov-img-zoom food">
+				<img src="images/18.jpg" alt="IMG-GALLERY">
+
+				<div class="overlay-item-gallery trans-0-4 flex-c-m">
+					<a class="btn-show-gallery flex-c-m fa fa-search" href="images/18.jpg" data-lightbox="gallery"></a>
+				</div>
+			</div>
+
+			<!-- - -->
+			<div class="item-gallery isotope-item bo-rad-10 hov-img-zoom interior guests">
+				<img src="images/3.jpg" alt="IMG-GALLERY">
+
+				<div class="overlay-item-gallery trans-0-4 flex-c-m">
+					<a class="btn-show-gallery flex-c-m fa fa-search" href="images/3.jpg" data-lightbox="gallery"></a>
+				</div>
+			</div>
+			
+			<!-- - -->
+			<div class="item-gallery isotope-item bo-rad-10 hov-img-zoom food">
+				<img src="images/45.jpg" alt="IMG-GALLERY">
+
+				<div class="overlay-item-gallery trans-0-4 flex-c-m">
+					<a class="btn-show-gallery flex-c-m fa fa-search" href="images/45.jpg" data-lightbox="gallery"></a>
+				</div>
+			</div>
+
+			<!-- - -->
+			<div class="item-gallery isotope-item bo-rad-10 hov-img-zoom food">
+				<img src="images/46.jpg" alt="IMG-GALLERY">
+
+				<div class="overlay-item-gallery trans-0-4 flex-c-m">
+					<a class="btn-show-gallery flex-c-m fa fa-search" href="images/46.jpg" data-lightbox="gallery"></a>
+				</div>
+			</div>
+
+			<!-- - -->
+			<div class="item-gallery isotope-item bo-rad-10 hov-img-zoom interior">
+				<img src="images/4.jpg" alt="IMG-GALLERY">
+
+				<div class="overlay-item-gallery trans-0-4 flex-c-m">
+					<a class="btn-show-gallery flex-c-m fa fa-search" href="images/4.jpg" data-lightbox="gallery"></a>
+				</div>
+			</div>
+
+			<!-- - -->
+			<div class="item-gallery isotope-item bo-rad-10 hov-img-zoom interior">
+				<img src="images/5.jpg" alt="IMG-GALLERY">
+
+				<div class="overlay-item-gallery trans-0-4 flex-c-m">
+					<a class="btn-show-gallery flex-c-m fa fa-search" href="images/5.jpg" data-lightbox="gallery"></a>
+				</div>
+			</div>
+
+			<!-- - -->
+			<div class="item-gallery isotope-item bo-rad-10 hov-img-zoom events">
+				<img src="images/36.jpg" alt="IMG-GALLERY">
+
+				<div class="overlay-item-gallery trans-0-4 flex-c-m">
+					<a class="btn-show-gallery flex-c-m fa fa-search" href="images/36.jpg" data-lightbox="gallery"></a>
+				</div>
+			</div>
+			
+			<!-- - -->
+			<div class="item-gallery isotope-item bo-rad-10 hov-img-zoom events guests">
+				<img src="images/37.jpg" alt="IMG-GALLERY">
+
+				<div class="overlay-item-gallery trans-0-4 flex-c-m">
+					<a class="btn-show-gallery" href="images/37.jpg" ></a>
+				</div>
+			</div>
+
+			<!-- - -->
+			<div class="item-gallery isotope-item bo-rad-10 hov-img-zoom food">
+				<img src="images/19.jpg" alt="IMG-GALLERY">
+
+				<div class="overlay-item-gallery trans-0-4 flex-c-m">
+					<a class="btn-show-gallery flex-c-m fa fa-search" href="images/19.jpg" data-lightbox="gallery"></a>
+				</div>
+			</div>
+
+			<!-- - -->
+			<div class="item-gallery isotope-item bo-rad-10 hov-img-zoom events">
+				<img src="images/38.jpg" alt="IMG-GALLERY">
+
+				<div class="overlay-item-gallery trans-0-4 flex-c-m">
+					<a class="btn-show-gallery flex-c-m fa fa-search" href="images/38.jpg" data-lightbox="gallery"></a>
+				</div>
+			</div>
+
+			<!-- - -->
+			<div class="item-gallery isotope-item bo-rad-10 hov-img-zoom food">
+				<img src="images/20.jpg" alt="IMG-GALLERY">
+
+				<div class="overlay-item-gallery trans-0-4 flex-c-m">
+					<a class="btn-show-gallery flex-c-m fa fa-search" href="images/20.jpg" data-lightbox="gallery"></a>
+				</div>
+			</div>
+
+			<!-- - -->
+			<div class="item-gallery isotope-item bo-rad-10 hov-img-zoom food">
+				<img src="images/21.jpg" alt="IMG-GALLERY">
+
+				<div class="overlay-item-gallery trans-0-4 flex-c-m">
+					<a class="btn-show-gallery flex-c-m fa fa-search" href="images/21.jpg" data-lightbox="gallery"></a>
+				</div>
+			</div>
+
+			<!-- - -->
+			<div class="item-gallery isotope-item bo-rad-10 hov-img-zoom interior guests">
+				<img src="images/1.jpg" alt="IMG-GALLERY">
+
+				<div class="overlay-item-gallery trans-0-4 flex-c-m">
+					<a class="btn-show-gallery flex-c-m fa fa-search" href="images/1.jpg" data-lightbox="gallery"></a>
+				</div>
+			</div>
+
+			<!-- - -->
+			<div class="item-gallery isotope-item bo-rad-10 hov-img-zoom interior">
+				<img src="images/6.jpg" alt="IMG-GALLERY">
+
+				<div class="overlay-item-gallery trans-0-4 flex-c-m">
+					<a class="btn-show-gallery flex-c-m fa fa-search" href="images/6.jpg" data-lightbox="gallery"></a>
+				</div>
+			</div>
+
+			<!-- - -->
+			<div class="item-gallery isotope-item bo-rad-10 hov-img-zoom interior">
+				<img src="images/7.jpg" alt="IMG-GALLERY">
+
+				<div class="overlay-item-gallery trans-0-4 flex-c-m">
+					<a class="btn-show-gallery flex-c-m fa fa-search" href="images/7.jpg" data-lightbox="gallery"></a>
+				</div>
+			</div>
+
+			<!-- - -->
+			<div class="item-gallery isotope-item bo-rad-10 hov-img-zoom events">
+				<img src="images/39.jpg" alt="IMG-GALLERY">
+
+				<div class="overlay-item-gallery trans-0-4 flex-c-m">
+					<a class="btn-show-gallery flex-c-m fa fa-search" href="images/39.jpg" data-lightbox="gallery"></a>
+				</div>
+			</div>
+			
+			<!-- - -->
+			<div class="item-gallery isotope-item bo-rad-10 hov-img-zoom events guests">
+				<img src="images/32.jpg" alt="IMG-GALLERY">
+
+				<div class="overlay-item-gallery trans-0-4 flex-c-m">
+					<a class="btn-show-gallery" href="images/32.jpg" ></a>
+				</div>
+			</div>
+
+			<!-- - -->
+			<div class="item-gallery isotope-item bo-rad-10 hov-img-zoom food">
+				<img src="images/22.jpg" alt="IMG-GALLERY">
+
+				<div class="overlay-item-gallery trans-0-4 flex-c-m">
+					<a class="btn-show-gallery flex-c-m fa fa-search" href="images/22.jpg" data-lightbox="gallery"></a>
+				</div>
+			</div>
+
+			<!-- - -->
+			<div class="item-gallery isotope-item bo-rad-10 hov-img-zoom events">
+				<img src="images/28.jpg" alt="IMG-GALLERY">
+
+				<div class="overlay-item-gallery trans-0-4 flex-c-m">
+					<a class="btn-show-gallery flex-c-m fa fa-search" href="images/28.jpg" data-lightbox="gallery"></a>
+				</div>
+			</div>
+
+			<!-- - -->
+			<div class="item-gallery isotope-item bo-rad-10 hov-img-zoom food">
+				<img src="images/23.jpg" alt="IMG-GALLERY">
+
+				<div class="overlay-item-gallery trans-0-4 flex-c-m">
+					<a class="btn-show-gallery flex-c-m fa fa-search" href="images/23.jpg" data-lightbox="gallery"></a>
+				</div>
+			</div>
+
+			<!-- - -->
+			<div class="item-gallery isotope-item bo-rad-10 hov-img-zoom food">
+				<img src="images/24.jpg" alt="IMG-GALLERY">
+
+				<div class="overlay-item-gallery trans-0-4 flex-c-m">
+					<a class="btn-show-gallery flex-c-m fa fa-search" href="images/24.jpg" data-lightbox="gallery"></a>
+				</div>
+			</div>
+
+			<!-- - -->
+			<div class="item-gallery isotope-item bo-rad-10 hov-img-zoom interior guests">
+				<img src="images/8.jpg" alt="IMG-GALLERY">
+
+				<div class="overlay-item-gallery trans-0-4 flex-c-m">
+					<a class="btn-show-gallery flex-c-m fa fa-search" href="images/8.jpg" data-lightbox="gallery"></a>
+				</div>
+			</div>
+
+			<!-- - -->
+			<div class="item-gallery isotope-item bo-rad-10 hov-img-zoom interior">
+				<img src="images/2.jpg" alt="IMG-GALLERY">
+
+				<div class="overlay-item-gallery trans-0-4 flex-c-m">
+					<a class="btn-show-gallery flex-c-m fa fa-search" href="images/2.jpg" data-lightbox="gallery"></a>
+				</div>
+			</div>
+
+			<!-- - -->
+			<div class="item-gallery isotope-item bo-rad-10 hov-img-zoom interior">
+				<img src="images/10.jpg" alt="IMG-GALLERY">
+
+				<div class="overlay-item-gallery trans-0-4 flex-c-m">
+					<a class="btn-show-gallery flex-c-m fa fa-search" href="images/10.jpg" data-lightbox="gallery"></a>
+				</div>
+			</div>
+
+			<!-- - -->
+			<div class="item-gallery isotope-item bo-rad-10 hov-img-zoom events">
+				<img src="images/photo-gallery-21.jpg" alt="IMG-GALLERY">
+
+				<div class="overlay-item-gallery trans-0-4 flex-c-m">
+					<a class="btn-show-gallery flex-c-m fa fa-search" href="images/photo-gallery-21.jpg" data-lightbox="gallery"></a>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+
+
+	<!-- footer section -->
+  <footer class="footer_section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 footer-col">
+          <div class="footer_contact">
+            <h4>
+              Contact Us
+            </h4>
+            <div class="contact_link_box">
+              <a href="">
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                <span>
+                  Karnal Tower, Block-A Noida, Sector-57
+                </span>
+              </a>
+              <a href="">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <span>
+                  Call +91 9897867565
+                </span>
+              </a>
+              <a href="">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <span>
+                  therosa@gmail.com
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 footer-col">
+          <div class="footer_detail">
+            <a href="" class="footer-logo">
+              The Rosa
+            </a>
+            <p>
+              We believe that food is the one way to make people happy. Therefore, we give you an amazing eating experience that you'll never forget.
+            </p>
+            <div class="footer_social">
+              <a href="">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+              </a>
+              <a href="">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </a>
+              <a href="">
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+              </a>
+              <a href="">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+              </a>
+              <a href="">
+                <i class="fa fa-pinterest" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 footer-col">
+          <h4>
+            Opening Hours
+          </h4>
+          <p>
+            Everyday
+          </p>
+          <p>
+            10.00 Am -10.00 Pm
+          </p>
+        </div>
+      </div>
+      <div class="footer-info">
+        <p>
+          &copy; <span id="displayYear"></span> All Rights Reserved By
+          <a href="https://html.design/">Kavita Mirchonia</a><br><br>
+        </p>
+      </div>
+    </div>
+  </footer>
+  <!-- footer section -->
+  
+  <!-- Back to top -->
+	    <a href="javascript:" id="return-to-top"><i class="icon-chevron-up"></i></a>
+
+
+
+	
+
+
+
+<!--===============================================================================================-->
+	<script type="text/javascript" src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script type="text/javascript" src="vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+	<script type="text/javascript" src="vendor/bootstrap/js/popper.js"></script>
+	<script type="text/javascript" src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script type="text/javascript" src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script type="text/javascript" src="vendor/daterangepicker/moment.min.js"></script>
+	<script type="text/javascript" src="vendor/daterangepicker/daterangepicker.js"></script>
+<!--===============================================================================================-->
+	<script type="text/javascript" src="vendor/slick/slick.min.js"></script>
+	<script type="text/javascript" src="js/slick-custom.js"></script>
+<!--===============================================================================================-->
+	<script type="text/javascript" src="vendor/parallax100/parallax100.js"></script>
+	<script type="text/javascript">
+        $('.parallax100').parallax100();
+	</script>
+<!--===============================================================================================-->
+	<script type="text/javascript" src="vendor/countdowntime/countdowntime.js"></script>
+<!--===============================================================================================-->
+	<script type="text/javascript" src="vendor/lightbox2/js/lightbox.min.js"></script>
+<!--===============================================================================================-->
+	<script type="text/javascript" src="vendor/isotope/isotope.pkgd.min.js"></script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+<!-- backtotop js -->
+    <script src="D:/MP/feane/gallery/js/backtotop.js"></script>
+
+
+</body>
+</html>
