@@ -39,7 +39,7 @@ body {
 .v2_6 {
   width: 100%;
   height: 100%;
-  background: url("D:/MP/feane/SignIn/images/hero.jpg");
+  background: url("SignIn/images/hero.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -67,7 +67,7 @@ body {
 .v2_3 {
   width: 384px;
   height: 448px;
-  background: url("D:/MP/THE ROSA/SignIn/images/pexels-rachel-claire-6127320.jpg");
+  background: url("images/pexels-rachel-claire-6127320.jpg");
   box-shadow: 0 0 37px 10px black inset;
   background-repeat: no-repeat;
   background-position: center center;
@@ -150,7 +150,7 @@ body {
 .v3_23 {
   width: 345px;
   height: 38px;
-  background: url("D:/MP/THE ROSA/SignIn/images/v3_23.png");
+  background: url("SignIn/images/v3_23.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -197,7 +197,7 @@ body {
 .v3_22 {
   width: 386px;
   height: 39px;
-  background: url("D:/MP/THE ROSA/SignIn/images/v3_22.png");
+  background: url("SignIn/images/v3_22.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
