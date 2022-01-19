@@ -8,7 +8,7 @@ body {
 .bg{
   width: 105px;
   height: 30px;
-  background: url("D:/MP/feane/SignIn/images/Capture1.jpg");  
+  background: url("SignIn/images/Capture1.jpg");  
   opacity: 1;
   position: absolute;
   top: 30px;
@@ -50,7 +50,7 @@ body {
 .v2_6 {
   width: 100%;
   height: 100%;
-  background: url("D:/MP/feane/SignIn/images/hero.jpg");
+  background: url("SignIn/images/hero.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -78,7 +78,7 @@ body {
 .v2_3 {
   width: 384px;
   height: 448px;
-  background: url("D:/MP/feane/images/food1.jpg");
+  background: url("images/food1.jpg");
   box-shadow: 0 0 37px 10px;
   background-repeat: no-repeat;
   background-position: center center;
