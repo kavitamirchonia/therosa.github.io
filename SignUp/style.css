@@ -7,7 +7,7 @@
 .bg{
   width: 105px;
   height: 30px;
-  background: url("D:/MP/feane/SignIn/images/Capture1.jpg");  
+  background: url("SignIn/images/Capture1.jpg");  
   opacity: 1;
   position: absolute;
   top: 30px;
@@ -17,7 +17,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: url("D:/MP/feane/SignIn/images/pexels-min-an-920570.jpg");
+  background: url("SignIn/images/pexels-min-an-920570.jpg");
   font-size: 18px;
   color: black;
   font-family: Poppins;
@@ -123,7 +123,7 @@ input[type="submit"]:active {
   padding: 40px;
   width: 350px;
   height: 570px;
-  background: url("D:/MP/feane/images/avatar-05.jpg");
+  background: url("images/avatar-05.jpg");
   background-size: cover;
   background-position: center;
   border-radius: 0 2px 2px 0;
